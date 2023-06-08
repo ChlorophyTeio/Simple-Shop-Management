@@ -4,8 +4,8 @@
 This is a simple Shop Management System implemented in Python. It allows you to manage products in a shop, add new products, and display the list of available products.
 
 ## Installation
-1. Clone the repository: `git clone https://github.com/your/repository.git`
-2. Navigate to the project directory: `cd shop-management-system`
+1. Clone the repository: `git clone https://github.com/ChlorophyTeio/Simple-Shop-Management.git`
+2. Navigate to the project directory: `cd Simple-Shop-Management`
 
 ## Usage
 1. Open the `main.py` file in a Python IDE or text editor.
