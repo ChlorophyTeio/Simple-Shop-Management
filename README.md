@@ -1,35 +1,58 @@
 # Shop Management System
 
-## Introduction
-This is a simple Shop Management System implemented in Python. It allows you to manage products in a shop, add new products, and display the list of available products.
+This is a simple shop management system implemented in Python using Tkinter for the graphical user interface. It allows users to manage products in a shop by adding new products and displaying the list of products.
 
-## Installation
-1. Clone the repository: `git clone https://github.com/ChlorophyTeio/Simple-Shop-Management.git`
-2. Navigate to the project directory: `cd Simple-Shop-Management`
+## Features
+
+- Add products: Users can add new products to the shop by providing the product name, price, and quantity.
+- Display products: Users can view the list of products in the shop, including the product name, price, and quantity.
+
+## Prerequisites
+
+Before running the application, make sure you have the following prerequisites installed on your system:
+
+- Python 3.x: [Download Python](https://www.python.org/downloads/)
+- Tkinter: Tkinter is usually included in the Python standard library.
 
 ## Usage
-1. Open the `main.py` file in a Python IDE or text editor.
-2. Run the program to see the list of products in the shop.
 
-## File Structure
-- `main.py`: The entry point of the program. It creates shop and product objects and demonstrates the functionality of the system.
-- `shop.py`: Contains the `Shop` class, which represents a shop and manages the products.
-- `product.py`: Contains the `Product` class, which represents a product and its properties.
+1. Clone the repository:
 
-## Class Details
-### Shop
-The `Shop` class represents a shop and has the following methods:
-- `__init__(self, name)`: Initializes the shop with a given name.
-- `add_product(self, product)`: Adds a product to the shop's product list.
-- `display_products(self)`: Displays the list of products in the shop.
+```shell
+git clone https://github.com/ChlorophyTeio/Simple-Shop-Management.git
+```
 
-### Product
-The `Product` class represents a product and has the following methods:
-- `__init__(self, name, price, quantity)`: Initializes a product with a given name, price, and quantity.
-- `display_info(self)`: Displays the information of the product.
+2. Navigate to the project directory:
 
-## Contributions
-Contributions to this project are welcome. If you find any issues or want to add new features, feel free to submit a pull request.
+```shell
+cd Shop-Management-System
+```
+
+3. Run the application:
+
+```shell
+python main.py
+```
+
+4. The Tkinter window will open. Click the "Display Products" button to view the list of products in the shop.
+
+## Contributing
+
+Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please feel free to open an issue or submit a pull request. Contributions can include bug fixes, adding new features, or improving the existing code.
+
+To contribute to the project, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make the necessary changes and commit them.
+4. Push your changes to your forked repository.
+5. Submit a pull request to the main repository.
 
 ## License
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Acknowledgements
+
+- [Python](https://www.python.org/)
+- [Tkinter](https://docs.python.org/3/library/tkinter.html)

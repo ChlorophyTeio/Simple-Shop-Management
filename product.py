@@ -6,5 +6,5 @@ class Product:
 
     def display_info(self):
         print(f"Product Name: {self.name}")
-        print(f"Price: {self.price}元")
+        print(f"Price: {self.price}CNY")
         print(f"Quantity: {self.quantity}")
